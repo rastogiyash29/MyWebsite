@@ -93,7 +93,7 @@ nav .fas{
 /* Adding media query */
 @media(max-width:700px){
     .text-box h1{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .nav-links ul li{
         display: block;

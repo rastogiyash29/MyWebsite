@@ -143,3 +143,44 @@ p{
     line-height: 22px;
     padding: 10px;
 }
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: ease 0.5s;
+
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    top: -10px;
+    right: 5px;
+    /* box shadow 5 values are: horizontal Offset, vertical Offset, blur, spread, color  */
+}
+
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}

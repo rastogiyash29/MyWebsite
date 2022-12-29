@@ -146,10 +146,13 @@ nav .fas {
     text-align: center;
     padding-top: 50px;
     padding: 10vh 10vw 10vh 10vw;
-    background-image: url("images/wall.jpg");
     background-size: cover;
 }
-
+.overview{
+    font-size: 1.8rem;
+    color: #222;
+    line-height: 30px;
+}
 .card {
     display: flex;
     flex-direction: column;
@@ -162,14 +165,14 @@ nav .fas {
     right: 0;
     transition: ease 0.5s;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .card:hover {
     position: relative;
     top: -7px;
     box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.2);
-        background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
 
     transform: scale(105%);
 }
@@ -203,28 +206,35 @@ nav .fas {
         overflow-x: hidden;
     }
     .card{
-        margin: 15px 0;
+        margin: 20px 0;
     }
     .card:hover {
         top:0;
         right: 0;
-        box-shadow: 0 0 15px 0 rgba(244, 67, 54, 1);
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
         transform: scale(105%);
     }
-    .skills{
-        width: 90%;
+    .skills {
+        padding: 5vh 5vw 5vh 5vw;
     }
     .card h2{
         font-size: 1.5rem;
     }
     .card p{
         font-size: 1rem;
+        color: #555;
+    }
+    .overview{
+        font-size: 1.4rem;
+        color: #222;
+        font-weight: 500;
+        line-height: 30px;
     }
 }
 
 h1 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 p {
